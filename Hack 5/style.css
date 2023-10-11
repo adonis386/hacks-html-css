@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Permanent+Marker&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.barra1{
+    position: fixed;
+    height: 100%;
+    width: 20px;
+    background-color: #5CE1E6;
+}
+
+.barra_derecha {
+    position: relative;
+    width: 85%;
+    height: 932.5px;
+    background-color: #5CE1E6;
+    float: right;
+}
+
+.img1 {
+    width: 700px;
+    height: 466.25px;
+    position: absolute;
+}
+
+.titulo_1 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 50px;
+    color: black;
+    float: right;
+    margin-right: 300px;
+    margin-top: 150px;
+}
+
+section {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 100px;
+    font-weight: 200px;
+}
+
+.p1 {
+    color: black;
+    font-weight: 100px;
+    font-family: 'Anonymous Pro', monospace;
+    width: 200px;
+    height: 200px;
+}
+
+.img2 {
+    position: absolute;
+    width: 725px;
+    height: 468px;
+    margin-top: 465px;
+    margin-left: 700px;
+}
+
