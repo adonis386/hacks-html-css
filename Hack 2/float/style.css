@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+main {
+    background-color: #93B5C9;
+    height: 15vh;
+}
+
+nav {
+    background-color: #AB2849;
+    height: 30vh;
+}
+
+
+aside div {
+    background-color: #AB2849;
+    height: 15vh;
+    width: 75%;
+    float: left;
+    margin: 20px 0 20px 0;
+}
+
+footer {
+    height: 15vh;
+    background-color: #AB2849;
+    margin: 20px 30px 5px 30px;
+    clear: left;
+}

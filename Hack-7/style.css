@@ -1,0 +1,159 @@
+@import url(https://db.onlinewebfonts.com/c/bb018e64d01355748d8ddc53553850b9?family=Cerebri+Sans+Regular);
+@import url(https://db.onlinewebfonts.com/c/ad775834db281065fc17e86ad857bf63?family=Cerebri+Sans+Bold);
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.circle {
+
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+
+}
+.circle1{
+  
+    top: -7rem;
+    left: 40%;
+    width: 250px;
+    height: 250px;
+    background-color: #FFD900;
+
+}
+
+.circle2{
+    right: -8rem;
+    top: 200px;
+    width: 300px;
+    height: 300px;
+    background-color: #FF5757; 
+
+}
+.circle3{
+    left: 5%;
+    bottom: -90rem;
+    width: 10%;
+    height: 10vh;
+    border-radius: 10rem 10rem 0 0;
+    background-color: #FFC1D3;
+
+}
+main{
+    margin-top: 20vh;
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+.container{
+    margin-top: 5rem;
+    font-family: "Cerebri Sans Bold";
+    font-size: 90px;
+    float: left;
+}
+#creator{
+    font-family: "Cerebri Sans Regular";
+    font-size: 40px;
+
+}
+#img1{
+    margin-top: -4rem;
+    float: right;
+    width: 29rem;
+    height: 38rem;
+}
+
+.container2{
+    background-color: #FFC1D3;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    justify-content: center;
+}
+.container2>div{
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    text-align: center;
+}
+.p1{
+    font-family: "Cerebri Sans Bold";
+    font-size: 30px;
+}
+.Followers{
+    font-family: "Cerebri Sans Regular";
+    font-size: 22px;
+}
+.container3{
+    width: 50%;
+    float: left;
+    height: auto;
+
+}
+.container4{
+    width: 50%;
+    float: right;
+    height: auto;
+}
+.img2{
+    margin-top: -12rem;
+    margin-bottom: -12rem;
+    width: 100%;
+
+    height: 66rem;
+}
+.title{
+    font-family: "Cerebri Sans Bold";
+    font-size: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+    
+}
+.p2{
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    font-family: "Cerebri Sans Regular";
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+.p2>div>ul{
+    float: left;
+    margin-left: 2rem;
+}
+#services{
+    float: left;
+    width: 50%;
+}
+#dollar{
+    float: right;
+    text-align: right;
+    width: 50%;
+
+}
+.box2{
+    margin-left: 2rem;
+    background-color: #FFC1D3;
+    width: 93%;
+    height: auto;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    padding-top: 0.5rem;
+}   
+#images{
+    width: 10px;
+}
+.box2>div>img{  
+    margin-left: 3rem;
+    float: left;
+    border-radius: 50%;
+    width: 3rem;
+}
+.box2>div>p{
+    margin-left: 100px;
+    line-height: 2.7;
+}
